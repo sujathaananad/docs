@@ -1,0 +1,60 @@
+
+   
+   7092373869 ho
+   04422604168-home2
+   9500489150 shobi
+   
+   
+   x-www-form-urlencoded
+   
+   USE POST MAN TO Check whether The REST Call Working 
+   
+http://localhost:8080/SpringRestHibernate/students    --get
+
+http://localhost:8080/SpringRestHibernate/create    --post Raw Json 
+
+{"id":6699,"name":"nithya","dob":"1998-10-10","degree":"BCom","department":"dfdf","grade":"G"}
+
+http://localhost:8080/SpringRestHibernate/create/delete/{id} -Delete 
+
+	http://localhost:8080/SpringRestHibernate/delete/1
+
+	http://localhost:8080/SpringRestHibernate/student/1
+
+http://localhost:8080/SpringRestHibernate/update  -put
+{"id":13,"name":"asdfm1","age":14,"dob":"14/10/96","degree":"Bsc","department":"karthikd@chn.srmtech.com","grade":"B"}
+
+
+http://localhost:8080/SpringRestHibernate/sendMail/7   -- get 
+
+
+http://localhost:8080/SpringRestHibernate/parentsmailids -get
+
+http://localhost:8080/SpringRestHibernate/sendMailtoParents -get
+
+aarthimp@chn.srmtech.com
+karthikd@chn.srmtech.com
+vigneshv@chn.srmtech.com
+krishnasamys@chn.srmtech.com
+
+
+
+http://localhost:8080/SpringRestHibernate/login
+
+{"username":"sam","password":"sam"}
+
+eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzYW0iLCJleHAiOjE1MzE3MzY1Njl9.KKKyrYkXRo5aKZQfevs0igdfFvxDVMdhVG9FXwcnPPwIGyP2GNSLWQRfGXCtTjL0AKd2XOjmKOy3JqNK-SNMWA
+
+
+{"errorCode":"401","message":"Invalid Login Details"}
+
+
+{"id":"767","name":"sriganesh","dob":"1981/10/28","degree":"Bsc","department":"ff","grade":"s"}
+
+{"id":"7","name":"ri","age":10,"dob":"1981-09-09","degree":"Bsc","department":"ff","grade":"s","parentmail":"anu@gmail.com"}
+
+sujathaanand456@gmail.com
+
+
+
+https://stackblitz.com/angular/jdgqrdondle?file=src%2Fapp%2Fheroes%2Fheroes.service.ts
